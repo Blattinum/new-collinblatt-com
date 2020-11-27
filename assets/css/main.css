@@ -8,14 +8,16 @@ html {
 
 body {
     background-color: #090B10;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3.2rem;
     color: #eee;
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 
+header {
+    text-align: center;
+}
 .page-container {
     background-color: #0F111A;
     margin: 1rem 0;
@@ -23,4 +25,8 @@ body {
     flex-direction: column;
     max-width: 85%;
     border-radius: 1rem;
+}
+
+p::first-line {
+    padding-left: 5rem;
 }
