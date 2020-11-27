@@ -30,3 +30,35 @@ header {
 p::first-line {
     padding-left: 5rem;
 }
+
+.main-video {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+video {
+    max-width: 100%;
+    border: 1px solid;
+  }
+  
+  .btn {
+    display: block;
+    margin-top: 20px;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    background-color: hsla(221, 61%, 65%, 1);
+    text-shadow: 1px 1px #000;
+    color: #fff;
+    font-size: 2.0rem;
+  }
+
+  .btn:hover {
+    background-color: hsla(221, 61%, 65%, 0.75);
+  }
+  
+  .hidden {
+    display: none;
+  }
