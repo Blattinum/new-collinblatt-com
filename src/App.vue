@@ -1,3 +1,5 @@
+<!-- Don't forget to npm install. -->
+
 <script setup>
 
 </script>
