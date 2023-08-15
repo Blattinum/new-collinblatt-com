@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <h1>Header</h1>
+  <h1>Header1</h1>
 
   <div>
   <a href="./">Home</a>
