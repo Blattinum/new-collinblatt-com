@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Atomic Age';
-    src: url('AtomicAge.woff2') format('woff2'),
-        url('AtomicAge.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
