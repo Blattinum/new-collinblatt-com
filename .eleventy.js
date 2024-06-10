@@ -3,7 +3,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/css/");
     eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
     eleventyConfig.addPassthroughCopy({ 'src/me.gif': '/me.gif' });
-    eleventyConfig.addPassthroughCopy({ 'src/favicon.ico': '/favicon.ico' });
+    eleventyConfig.addPassthroughCopy({ 'src/assets/img/favicon.ico': '/favicon.ico' });
 
     eleventyConfig.addWatchTarget("src/css/");
     eleventyConfig.addWatchTarget("src/assets/");
