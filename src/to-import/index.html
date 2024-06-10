@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<base target="_blank">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#4A484C"> <!-- Old Theme Color "Eucalyptus": #1F8059 |  "Wild Blue Yonder": #8290B9 -->
+    <meta name="Description" content="Personal website for Collin Blatt. Technology and history enthusiast.">
+    
+    <meta property="og:title" content="Collin Blatt">
+    <meta property="og:site_name" content="CollinBlatt.com">
+    <meta property="og:url" content="https://collinblatt.com">
+    <meta property="og:description" content="Personal website for Collin Blatt. Technology and history enthusiast.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://collinblatt.com/assets/img/cblatt-woods.jpg">
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+    <title>Collin Blatt</title>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/cascadia/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/DMSerif_Sans/stylesheet.css">
+    <link rel="stylesheet" href="./assets/fonts/atomicage/stylesheet.css">
+
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script src="./assets/js/main.js" defer></script>
+    </head>
+<!-- <body class="cur-t1">  -->
+    <body>
+
+    <header id="gradient-bg">
+        <h1>Collin Blatt</h1>
+    </header>
+
+    <!--<div class="color-mode">🌞 or 🌙</div>-->
+<div id="content-wrapper">
+
+    <section>
+        <h2>about</h2>
+        <!-- target="_blank" rel="noopener noreferrer" -->
+
+        <p class="no-fav">
+            I'm currently a Systems Administrator at Mel Trotter Ministries (<a href="https://meltrotter.org/" target="_blank" rel="noopener noreferrer">meltrotter.org</a>). 
+        </p>
+        <p>
+            I actively work with Windows, Active Directory, Group Policy, Microsoft 365 administration, and most recently <a href="https://learn.microsoft.com/en-us/mem/intune/" target="_blank">Intune</a>. On a daily basis, I use PowerShell to automate many administrative tasks and to improve our department's productivity. Two of the biggest intra-departmental projects I've worked on is for our inventory management and onboarding process.
+        </p>
+<h4>&mdash;</h4>
+        <p>
+            I've also implemented DMARC, DKIM, and BIMI (VMC not purchased yet) for <a href="https://meltrotter.org/" target="_blank" rel="noopener noreferrer">meltrotter.org</a>, <a href="http://heartside.org/" target="_blank" rel="noopener noreferrer">heartside.org</a>, and <a href="https://nextstep-wm.org/" target="_blank" rel="noopener noreferrer">nextstep-wm.org</a>.<!--Part of this process was onboarding our 3 critical domains to a third party platform called PowerDMARC and setting up PowerSPF to flatten our --> 
+        </p>
+        
+    </section>
+<!--
+    <section>
+        <h2>portfolio</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda unde facilis reprehenderit ullam porro aliquid molestias laborum perferendis excepturi alias possimus beatae repellat, officia ex quo animi voluptatem ab nostrum incidunt cum. Voluptatibus optio reprehenderit nisi maiores tenetur amet, provident molestiae esse soluta architecto maxime inventore dolor vero quis neque!</p>
+        <h4>&mdash;</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nulla officia rerum velit. Odit natus doloremque perspiciatis sunt veritatis officia culpa odio ut, labore aspernatur animi in hic eius, architecto rem? Eius a distinctio animi, assumenda consequuntur et sunt amet. Beatae vel culpa sit deleniti facilis, architecto aspernatur fugiat esse. Officiis blanditiis velit nihil ex doloribus. Fugiat atque quisquam accusamus, dolor porro animi, voluptas et aut recusandae hic quam molestias.</p>
+
+    </section>
+-->
+
+<section id="contact">
+    <h2>contact</h2>
+
+    <p>📨 email: <a href="mailto:collin@blatt.tech" target="_blank" rel="noopener noreferrer">collin@blatt.tech</a></p>
+
+
+</section>
+
+</div>
+
+
+<footer class="links-list">
+    <ul>
+        <li><a href="https://links.cobl.co/twtr"><i data-feather="x"></i></a></li>
+        <li><a href="https://links.cobl.co/fb"><i data-feather="facebook"></i></a></li>
+        <li><a href="https://links.cobl.co/ig"><i data-feather="instagram"></i></a></li>
+        <li><a href="https://links.cobl.co/li"><i data-feather="linkedin"></i></a></li>
+        <li><a href="http://old.collinblatt.com/crypto"><i data-feather="aperture"></i></a></li>
+    </ul>
+
+</footer>
+
+    <script>
+        feather.replace({'stroke-width': 1.0})
+    </script>
+    
+  <script>
+    document.addEventListener("mousemove", function (e) {
+      const x = e.clientX / window.innerWidth;
+      const y = e.clientY / window.innerHeight;
+
+      const gradientColor = `radial-gradient(circle at ${x * 100}% ${y * 100}%, #559728, #254411)`;
+
+      document.getElementById("gradient-bg").style.background = gradientColor;
+    });
+  </script>
+</body>
+</html>
