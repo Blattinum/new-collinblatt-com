@@ -46,6 +46,30 @@
 <h1>My name is Collin Blatt</h1>
 
 <p>contact me</p>
+
+    <footer class="links-list">
+    <ul>
+        <li><a href="https://links.cobl.co/twtr"><i data-feather="x"></i></a></li>
+        <li><a href="https://links.cobl.co/ig"><i data-feather="instagram"></i></a></li>
+        <li><a href="https://links.cobl.co/li"><i data-feather="linkedin"></i></a></li>
+        <li><a href="http://old.collinblatt.com/crypto"><i data-feather="aperture"></i></a></li>
+    </ul>
     
+    </footer>
+    
+    <script>
+        feather.replace({'stroke-width': 1.0})
+    </script>
+    
+    <script>
+    document.addEventListener("mousemove", function (e) {
+      const x = e.clientX / window.innerWidth;
+      const y = e.clientY / window.innerHeight;
+    
+      const gradientColor = `radial-gradient(circle at ${x * 100}% ${y * 100}%, #559728, #254411)`;
+    
+      document.getElementById("gradient-bg").style.background = gradientColor;
+    });
+    </script>
 </body>
 </html>
