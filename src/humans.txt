@@ -26,7 +26,7 @@ Thanks to 11ty.dev for the amazing SSG that is 11ty.
 /* SITE */
 
                             
-Last update: 2024 June
+Last update: 2024/06
 
                             
 Standards: HTML5, CSS3
