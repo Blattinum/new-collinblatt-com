@@ -31,9 +31,6 @@ Thanks to 11ty.dev for the amazing SSG that is 11ty.
 Last update: 2024/06
 
                             
-Standards: HTML5, CSS3
-
-                            
 Components: 11ty, Nunjucks
 
                             
