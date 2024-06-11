@@ -36,3 +36,6 @@ title: "New - Collin Blatt"
 </div>
 
 
+{% from 'components/card.njk' import card %}
+{{ card(title='Hello!', link='/', link_text='Go To Home', raised=true) }}
+{{ card(title='Card 2', link='/contact', link_text='Go To Contact', raised=false) }}
