@@ -1,0 +1,38 @@
+/* DEV */
+
+                            
+Creator: Collin Blatt
+
+                            
+Contact: collin [at] blatt.tech
+
+                            
+Twitter: @collinblatt
+
+                            
+Location: Michigan, USA
+
+						
+
+							
+/* THANKS */
+
+							
+Thanks to Jaydan Urwin for providing a great course on the basics of 11ty. www.youtube.com/@jaydanurwin
+
+Thanks to 11ty.dev for the amazing SSG that is 11ty.                       
+
+                            
+/* SITE */
+
+                            
+Last update: 2024 June
+
+                            
+Standards: HTML5, CSS3
+
+                            
+Components: 11ty, Nunjucks
+
+                            
+Software used in creating this site: VS Code
