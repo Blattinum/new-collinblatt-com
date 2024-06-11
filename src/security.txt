@@ -1,1 +1,4 @@
--_- G -_-
+Contact: mailto:security@blatt.tech
+Expires: 2025-01-01T00:59:00.000Z
+Preferred-Languages: en
+Canonical: https://collinblatt.com/.well-known/security.txt
