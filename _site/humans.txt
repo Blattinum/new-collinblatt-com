@@ -20,6 +20,8 @@ Location: Michigan, USA
 							
 Thanks to Jaydan Urwin for providing a great course on the basics of 11ty. www.youtube.com/@jaydanurwin
 
+Thanks to Bernard Nijenhuis for their post on adding favicon in 11ty. bnijenhuis.nl/notes/adding-a-favicon-in-eleventy
+
 Thanks to 11ty.dev for the amazing SSG that is 11ty.                       
 
                             
